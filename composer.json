@@ -1,0 +1,25 @@
+{
+    "name": "yifengying/hellow",
+    "description": "zheshi yige miaoshu",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "张三",
+            "email": "123456@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
